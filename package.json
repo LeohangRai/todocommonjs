@@ -1,0 +1,28 @@
+{
+  "name": "to-do-commonjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src"
+  },
+  "_moduleAliases": {
+    "@root": ".",
+    "@BaseController": "src/controllers/baseController",
+    "@BaseService": "src/services/baseService"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "module-alias": "^2.2.2",
+    "sequelize": "^6.19.0"
+  },
+  "devDependencies": {
+    "mysql2": "^2.3.3",
+    "sequelize-cli": "^6.4.1"
+  }
+}
